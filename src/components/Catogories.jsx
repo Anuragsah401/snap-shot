@@ -1,8 +1,7 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
 
-const Catogories = (props) => {
+const Catogories = () => {
   const navigate = useNavigate();
 
   const listItems = [
