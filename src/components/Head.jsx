@@ -6,6 +6,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Catogories from "./Catogories";
 
 function Head() {
+  const a = 10;
   const [text, setText] = useState("");
 
   const navigate = useNavigate();
