@@ -6,7 +6,6 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Catogories from "./Catogories";
 
 function Head() {
-  const a = 10;
   const [text, setText] = useState("");
 
   const navigate = useNavigate();
@@ -27,7 +26,10 @@ function Head() {
       <h1 className="my-5 display-3 fw-bold">SnapShot</h1>
 
       <div className="mb-3">
-        <form onSubmit={onSubmitHandler} className="d-flex justify-content-center">
+        <form
+          onSubmit={onSubmitHandler}
+          className="d-flex justify-content-center"
+        >
           <input
             type="text"
             className="input-field px-3 py-2 border-2 border-end-0 rounded-start"
