@@ -1,5 +1,4 @@
 import React from "react";
-// eslint-disable-next-line import/no-unresolved
 import { useImageContext } from "Context/ImagesContext";
 
 import Loading from "./Loading";
