@@ -1,28 +1,34 @@
 .img-container {
-    min-width: 14.625em;
-    height: 12.25em;
-    overflow: hidden;
-    & img {
-    width: 100%;
+  height: 12.25em;
+  min-width: 14.625em;
+  overflow: hidden;
+
+  & img {
+    cursor: pointer;
     height: 100%;
     object-fit: cover;
     transition: all 0.4s;
-    cursor: pointer;
+    width: 100%;
+
     &:hover {
-     transform: scale(1.1)
+      transform: scale(1.1);
     }
-    }
-    & .as{
-        background-color: red
-    }
-    & .gf {
-        background-attachment: fixed;
-    }
-    & .fghfg {
-        background-attachment: fixed;
-    }
-    & .qwq{
-        color: black
-    }
+  }
+
+  & .as {
+    background-color: red;
+  }
+
+  & .gf {
+    background-attachment: fixed;
+  }
+
+  & .fghfg {
+    background-attachment: fixed;
+  }
+
+  & .qwq {
+    color: black;
+  }
 }
 

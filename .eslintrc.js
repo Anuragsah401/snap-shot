@@ -28,12 +28,7 @@ module.exports = {
     //* disables react imports
     "react/react-in-jsx-scope": "off",
 
-    quotes: [
-      "off",
-      "double",
-      { allowTemplateLiterals: true },
-      { avoidEscape: true },
-    ],
+    quotes: ["off", "double", { allowTemplateLiterals: true }, { avoidEscape: true }],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
 
     //* prettier config
@@ -67,25 +62,6 @@ module.exports = {
         "newlines-between": "always",
       },
     ],
-
-    //* for scss
-    // "scss/comment-no-empty": true,
-    // "order/properties-alphabetical-order": true,
-    // "scss/declaration-nested-properties": "never",
-    // "scss/no-duplicate-dollar-variables": true,
-    // "scss/no-duplicate-mixins": true,
-    // "scss/at-rule-no-unknown": true,
-    // "scss/operator-no-unspaced": true,
-    // "string-quotes": "double",
-    // "no-missing-end-of-source-newline": false,
-    // "keyframe-declaration-no-important": true,
-    // "unit-allowed-list": ["em", "rem", "%", "ms", "s", "deg", "vh", "vw", "fr"],
-    // "block-no-empty": true,
-    // "block-opening-brace-space-before": "always",
-    // "color-named": "never",
-    // "color-no-invalid-hex": true,
-    // "length-zero-no-unit": true,
-    // "max-nesting-depth": 3,
   },
   settings: {
     "import/resolver": {
